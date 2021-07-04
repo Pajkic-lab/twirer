@@ -1,0 +1,10 @@
+///////
+
+
+git commit -m "Add heroku.yml"
+
+heroku git:remote -a my-app
+
+heroku stack:set container
+
+git push heroku master
